@@ -1,18 +1,17 @@
 # U1 - Example for VCPKG, CMake and Boost usage
 
-U1 is a simple example of using Boost, CMake and VCPKG together.
-It is a program that prints random uuid values ​​to the screen using boost's uuid sublibrary.
+U1 is a simple example demonstrating the combined usage of Boost, CMake, and VCPKG. It is a program that displays random UUID values on the screen using Boost's UUID sublibrary.
 
-In order to compile this project, in your system;
+To compile this project on your system, ensure the following dependencies are installed:
+
 * vcpkg
 	- boost
 * cmake
 * msvc / gcc / llvm
-must be installed.
 
 ## compilation steps
 
-Some parameters in the steps below will vary depending on your system. After cloning the project, you need to run these steps by changing them according to your own system.
+Please note that certain parameters in the following steps may vary depending on your system configuration. After cloning the project, execute these steps, customizing them to match your own system:
 
 1. `cd u1`
 2. `mkdir build`
